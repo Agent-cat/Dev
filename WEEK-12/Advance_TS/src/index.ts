@@ -1,0 +1,1 @@
+let name1 :String = "John Doe";
