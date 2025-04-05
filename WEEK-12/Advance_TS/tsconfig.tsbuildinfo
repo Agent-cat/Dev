@@ -1,1 +1,1 @@
-{"root":["./src/sumofage.ts"],"version":"5.8.2"}
+{"root":["./src/partial.ts","./src/pick.ts","./src/readonly.ts","./src/sumofage.ts"],"version":"5.8.2"}
