@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.c{
+  font-size: 20px;
+  z-index: 20;
+}
