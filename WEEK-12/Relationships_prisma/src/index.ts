@@ -1,4 +1,4 @@
-import { PrismaClient } from "../src/generated/prisma";
+import { PrismaClient } from "@prisma/client";
 const { user, todos } = new PrismaClient();
 
 const InsertUser = async (
