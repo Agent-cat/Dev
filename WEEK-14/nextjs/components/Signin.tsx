@@ -1,14 +1,15 @@
-"use client"
+"use client";
 import Link from "next/link";
+import { useState } from "react";
 const Signin = () => {
+  const [data,set]=useState()
   return (
     <div className="h-screen flex justify-center flex-col">
       <div className="flex justify-center">
-        <div>
+        <div>button
           <div className="px-10">
             <div className="text-3xl font-extrabold">Sign in</div>
           </div>
-          <Link href="/signup">Signup</Link>
           <div className="pt-2">
             <LabelledInput label="Username" placeholder="...@gmail.com" />
             <LabelledInput
@@ -16,13 +17,15 @@ const Signin = () => {
               type={"password"}
               placeholder="******"
             />
-            <button onClick={()=>console.log("vishnu")}
+            <button
+              onClick={() => console.log("vishnu")}
               type="button"
               className="mt-8 w-full text-white bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
             >
               Sign in
             </button>
           </div>
+          <Link href="/signup">Signup</Link>
         </div>
       </div>
     </div>
