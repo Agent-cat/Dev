@@ -5,7 +5,7 @@ import {
   Messagescount,
   Networkcount,
   TotalNotification,
-} from "./store/atoms/atoms.js";
+} from "./store/atoms/atoms";
 
 const ButtomComponent = () => {
 
