@@ -1,15 +1,12 @@
-import React from 'react'
-import ButtomComponent from './ButtomComponent'
-import { RecoilRoot } from 'recoil'
+import React from "react";
+import ButtomComponent from "./ButtomComponent";
+import { RecoilRoot } from "recoil";
 const App = () => {
   return (
     <RecoilRoot>
-      <ButtomComponent/>
+      <ButtomComponent />
     </RecoilRoot>
-      
-    
-    
-  )
-}
+  );
+};
 
-export default App
+export default App;
